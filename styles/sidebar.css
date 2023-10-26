@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  width: 72px;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  z-index: 200;
+  padding-top: 6px;
+}
+
+.sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.sidebar-icons img {
+  height: 24px;
+}
